@@ -110,7 +110,7 @@ const Navbar = () => {
               <div className="relative">
                 <div className="  ">
                   <Image
-                    src="/klogo.png"
+                    src="/Klogo.png"
                     alt="Kautilya Academy Logo"
                     width={150}
                     height={90}
