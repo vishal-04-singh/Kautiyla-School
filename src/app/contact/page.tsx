@@ -36,8 +36,8 @@ export default function ContactPage() {
       <div className="absolute bottom-40 left-10 w-72 h-72 bg-rose-100/40 rounded-full blur-3xl -z-10" />
       
       {/* Hero section */}
-      <section className="w-full bg-gradient-to-r from-blue-900 to-indigo-900 py-12 md:py-20 mt-19">
-        <div className="container mx-auto px-4">
+      <section className="w-full bg-gradient-to-r from-blue-900 to-indigo-900 py-12 md:py-20 h-80 ">
+        <div className="container mx-auto px-4 mt-14">
           <motion.div 
             initial={{ opacity: 0, y: -20 }}
             animate={{ opacity: isVisible ? 1 : 0, y: isVisible ? 0 : -20 }}
