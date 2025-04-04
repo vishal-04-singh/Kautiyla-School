@@ -310,7 +310,7 @@ export default function ContactPage() {
                       <label htmlFor="inquiry-type" className="text-sm font-medium text-gray-700">Inquiry Type</label>
                       <select 
                         id="inquiry-type"
-                        className="w-full px-3 py-2 rounded-lg border border-gray-200 focus:border-blue-500 focus:ring focus:ring-blue-200 focus:ring-opacity-50 outline-none transition-colors bg-white"
+                        className="w-full px-3 py-2 rounded-lg border border-gray-200 focus:border-blue-500 focus:ring focus:ring-blue-200 focus:ring-opacity-50 outline-none transition-colors bg-white text-black font-medium"
                         required
                       >
                         <option value="">Select an option</option>
@@ -327,7 +327,7 @@ export default function ContactPage() {
                       <textarea
                         id="message"
                         placeholder="Please describe your inquiry in detail..."
-                        className="w-full px-3 py-2 rounded-lg border border-gray-200 focus:border-blue-500 focus:ring focus:ring-blue-200 focus:ring-opacity-50 outline-none transition-colors min-h-[120px] resize-none"
+                        className="w-full px-3 py-2 rounded-lg border border-gray-200 focus:border-blue-500 focus:ring focus:ring-blue-200 focus:ring-opacity-50 outline-none transition-colors min-h-[120px] resize-none text-gray-700"
                         required
                       />
                     </div>
