@@ -72,7 +72,7 @@ const SchoolImageSlider: React.FC = () => {
   const [currentIndex, setCurrentIndex] = useState<number>(0);
   const [isPaused, setIsPaused] = useState<boolean>(false);
   const autoPlayRef = useRef<NodeJS.Timeout | null>(null);
-  const animationTimeRef = useRef<number>(5000); // 5 seconds per slide
+  const animationTimeRef = useRef<number>(5000); 
 
   // Category icon mapping
   const getCategoryIcon = (category: string) => {

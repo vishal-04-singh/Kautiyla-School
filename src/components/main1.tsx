@@ -42,19 +42,19 @@ export default function TeachingPractices() {
 
   const images = [
     {
-      src: '/Slider/2.jpg'
+      src: '/images/1.jpg'
      
     },
     {
-      src: '/images/2.jpeg'
+      src: '/images/2.jpg'
       
     },
     {
-      src: '/images/3.jpeg'
+      src: '/images/3.jpg'
       
     },
     {
-      src: '/images/4.jpeg',
+      src: '/images/4.jpg',
     }
   ];
 
