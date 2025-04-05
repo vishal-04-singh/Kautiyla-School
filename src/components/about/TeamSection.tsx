@@ -24,7 +24,7 @@ export const FacultySection = () => {
       <motion.h2
         initial={{ opacity: 0, y: 20 }}
         whileInView={{ opacity: 1, y: 0 }}
-        className="text-4xl font-bold text-center mb-16"
+        className="text-4xl font-bold text-center mb-16 text-black" 
       >
         Meet Our Faculty
       </motion.h2>
@@ -39,7 +39,7 @@ export const FacultySection = () => {
             whileHover={{ y: -10 }}
             className="bg-white rounded-xl shadow-lg overflow-hidden"
           >
-            <div className="relative h-80">
+            <div className="relative h-80 ">
               <Image
                 src={member.image}
                 alt={member.name}

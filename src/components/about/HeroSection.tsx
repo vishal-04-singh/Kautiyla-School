@@ -12,7 +12,7 @@ export const HeroSection = () => {
         className="absolute w-full h-full object-cover"
         style={{ filter: 'brightness(0.6)' }}
       >
-        <source src="/sss.mp4" type="video/mp4" />
+        <source src="/bgmian.mov" type="video/mp4" />
       </video>
 
       <div className="relative z-10 h-full flex items-center justify-center">

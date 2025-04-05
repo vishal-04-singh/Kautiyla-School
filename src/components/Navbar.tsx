@@ -143,7 +143,7 @@ const Navbar = () => {
           ))}
           
           {/* Search Button */}
-          <div className="relative ml-4">
+          {/* <div className="relative ml-4">
             <button 
               onClick={(e) => {
                 e.stopPropagation();
@@ -154,7 +154,6 @@ const Navbar = () => {
               <Search size={20} />
             </button>
             
-            {/* Search Input */}
             <AnimatePresence>
               {searchActive && (
                 <motion.div
@@ -173,7 +172,7 @@ const Navbar = () => {
               )}
             </AnimatePresence>
           </div>
-          
+           */}
           {/* Announcement Button */}
           <Link href="/announcements" className="ml-4">
             <button className="bg-orange-500 hover:bg-orange-600 text-white px-4 py-2 rounded-full flex items-center text-sm font-medium transition-colors">
@@ -201,7 +200,7 @@ const Navbar = () => {
                   />
                 ))}
                 
-                {/* Mobile search */}
+                {/* Mobile search
                 <div className="px-6 py-3">
                   <div className="relative">
                     <input
@@ -211,7 +210,7 @@ const Navbar = () => {
                     />
                     <Search className="absolute left-3 top-1/2 transform -translate-y-1/2 text-gray-500" size={18} />
                   </div>
-                </div>
+                </div> */}
                 
                 {/* Quick links for parents and students */}
                 <div className="px-6 py-4 bg-gray-50 mt-2">

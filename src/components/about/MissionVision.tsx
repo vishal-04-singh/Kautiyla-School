@@ -39,12 +39,13 @@ export default function MissionVision (){
           transition={{ duration: 0.6 }}
           className="space-y-6"
         >
-          <h2 className="text-4xl font-bold text-gray-800">Our Vision</h2>
+          <h2 className="text-4xl font-bold text-gray-800">Our Mission</h2>
           <p className="text-lg text-gray-600 leading-relaxed">
-          Our Primary duty is to inculcate positive
-          Virtures like courage, vitality, sensitiveness and creativities in children so that they can grow in to visionary leaders of upright character.
-          Education in its real sense implies acquisition of knowledge, developing powers of reasoning and character building there by, transforming one into an enlightened human being.
-          We at the Kautilya Academy, impart education in English Medium based on Indian Culture, Endeavour to build upright citizens who aspire for a high & a better life.
+          At Kautilya Academy, our mission is to empower students with the knowledge, skills, and values essential for success in a dynamic and ever-changing world. We are committed to nurturing creativity, critical thinking, and problem-solving abilities, encouraging students to explore new ideas with confidence and curiosity.
+
+Rooted in Indian culture and delivered through English-medium education, we emphasize ethical values, emotional intelligence, and social responsibility to shape well-rounded individuals. Our goal is to cultivate courage, vitality, sensitivity, and creativity—qualities that inspire students to become visionary leaders of strong character. Through holistic development and a lifelong love for learning, we prepare our students to adapt, innovate, and lead with integrity in every aspect of life.
+
+
           </p>
           
         </motion.div>

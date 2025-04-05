@@ -8,13 +8,14 @@ import Slider from '@/components/ImageSlider';
 import Footer from '@/components/footer';
 import { useState } from "react";
 import CustomCursor from "@/components/cursor";
+import StatisticsSection from '@/components/StatisticsSection';
 
 const AdmissionPage = () => {
   
       const [activeCTA] = useState<string | null>(null);
   return (
     <div><CustomCursor activeCTA={activeCTA} />
-    <div className='bg-gradient-to-b from-indigo-50/50 to-white w-full min-h-screen'>
+    <div className='bg-gradient-to-b from-indigo-50/50 to-white w-full min-h-screen shadow-lg'>
       <Navbar />
       
       {/* Hero section with image slider */}
@@ -47,22 +48,7 @@ const AdmissionPage = () => {
 
       {/* Stats section */}
       <div className="container mx-auto px-4 py-12">
-        <div className="grid grid-cols-2 md:grid-cols-4 gap-6 max-w-4xl mx-auto">
-          {[
-            { number: "98%", label: "Placement Rate" },
-            { number: "15:1", label: "Student-Faculty Ratio" },
-            { number: "50+", label: "Programs Offered" },
-            { number: "30+", label: "Campus Activities" },
-          ].map((stat, idx) => (
-            <div
-              key={idx}
-              className="bg-white rounded-xl p-6 shadow-md hover:shadow-lg transition-shadow text-center"
-            >
-              <h3 className="text-3xl font-bold text-indigo-700">{stat.number}</h3>
-              <p className="text-gray-600">{stat.label}</p>
-            </div>
-          ))}
-        </div>
+       <StatisticsSection/>
       </div>
 
       {/* Admission tabs section */}
@@ -74,18 +60,18 @@ const AdmissionPage = () => {
       {/* Testimonial section */}
       <div className="bg-indigo-900 py-16 px-4">
         <div className="container mx-auto max-w-4xl">
-          <div className="bg-white/10 backdrop-blur-md rounded-2xl p-8 md:p-10 shadow-xl">
-            <div className="flex flex-col md:flex-row gap-8 items-center">
-              <div className="md:w-1/3">
-                <div className="w-32 h-32 rounded-full overflow-hidden mx-auto relative">
+          {/* <div className="bg-white/10 backdrop-blur-md rounded-2xl p-8 md:p-10 shadow-xl"> */}
+            {/* <div className="flex flex-col md:flex-row gap-8 items-center"> */}
+              {/* <div className="md:w-1/3"> */}
+                {/* <div className="w-32 h-32 rounded-full overflow-hidden mx-auto relative"> */}
                   {/* Add student image here */}
-                  <div className="absolute inset-0 bg-gradient-to-br from-indigo-400 to-purple-400 flex items-center justify-center text-white text-5xl">
+                  {/* <div className="absolute inset-0 bg-gradient-to-br from-indigo-400 to-purple-400 flex items-center justify-center text-white text-5xl">
                     👨‍🎓
-                  </div>
-                </div>
-              </div>
+                  </div> */}
+                {/* </div> */}
+              {/* </div> */}
               
-              <div className="md:w-2/3">
+              {/* <div className="md:w-2/3">
                 <div className="text-3xl text-indigo-100 mb-4">&quot;</div>
                 <p className="text-white text-lg italic mb-6">
                   Applying to Kautilya was one of the best decisions I&apos;ve made. The admissions team was incredibly 
@@ -94,9 +80,9 @@ const AdmissionPage = () => {
                 
                 <h4 className="text-white font-medium">Rahul Sharma</h4>
                 <p className="text-indigo-200">Computer Science, Class of 2024</p>
-              </div>
-            </div>
-          </div>
+              </div> */}
+            {/* </div> */}
+          {/* </div> */}
         </div>
       </div>
 
@@ -110,7 +96,7 @@ const AdmissionPage = () => {
           innovators, and future leaders.
         </p>
         <div className="flex flex-col sm:flex-row gap-4 justify-center">
-          <button
+          {/* <button
             className="bg-gradient-to-r from-indigo-600 to-purple-600 text-white py-3 px-8 rounded-xl font-medium shadow-lg"
           >
             Apply Now
@@ -119,7 +105,7 @@ const AdmissionPage = () => {
             className="bg-white border border-indigo-200 text-indigo-700 py-3 px-8 rounded-xl font-medium"
           >
             Schedule a Campus Tour
-          </button>
+          </button> */}
         </div>
       </div>
 

@@ -16,7 +16,7 @@ interface SchoolSlide {
   title: string;
   description: string;
   date?: string;
-  category: "Event" | "Achievement" | "Announcement" | "Facility";
+  category: "Event" | "Achievement" | "Announcement" | "Facility" | "Meeting";
   ctaText?: string;
   ctaLink?: string;
 }
@@ -24,47 +24,47 @@ interface SchoolSlide {
 // Sample school-related content
 const schoolSlides: SchoolSlide[] = [
   {
-    src: "/images/1.jpeg",
-    alt: "School Science Fair",
-    title: "DISCOVER INNOVATION",
+    src: "/Slider/1.jpg",
+    alt: "Republic Day Celebration",
+    title: "Republic Day Celebration",
     description:
-      "Join us for the Annual Science Fair where students showcase groundbreaking projects",
-    date: "March 15, 2025",
+      "Students dressed in vibrant patriotic attire celebrate Republic Day with enthusiasm, waving the Indian flag and showcasing their love for the nation.",
+    date: "January 26, 2019",
     category: "Event",
-    ctaText: "Register Now",
-    ctaLink: "/events/science-fair",
-  },
-  {
-    src: "/images/2.jpeg",
-    alt: "Basketball Championship",
-    title: "CHAMPIONS AGAIN!",
-    description:
-      "Our basketball team brings home the regional trophy for the third consecutive year",
-    date: "February 28, 2025",
-    category: "Achievement",
     ctaText: "See Gallery",
-    ctaLink: "/achievements/basketball",
+    ctaLink: "/gallery",
   },
   {
-    src: "/images/3.jpeg",
-    alt: "New Library Opening",
-    title: "MODERN LEARNING SPACES",
+    src: "/Slider/2.jpg",
+    alt: "School Meeting & Planning",
+    title: "School Meeting & Planning",
     description:
-      "Explore our newly renovated Digital Learning Center with state-of-the-art technology",
-    category: "Facility",
-    ctaText: "Take a Tour",
-    ctaLink: "/facilities/library",
+      "A discussion among school authorities and staff, strategizing for upcoming events and improvements to enhance students' educational experience.",
+    date: "October 04, 2019",
+    category: "Meeting",
+    ctaText: "See Gallery",
+    ctaLink: "/gallery",
   },
   {
-    src: "/images/4.jpeg",
-    alt: "Parent-Teacher Conference",
-    title: "CONNECT WITH TEACHERS",
+    src: "/Slider/3.jpg",
+    alt: "Christmas Celebration at School",
+    title: "Christmas Celebration at School",
     description:
-      "Schedule your meetings for the upcoming Spring Parent-Teacher Conference",
-    date: "April 10, 2025",
-    category: "Announcement",
-    ctaText: "Schedule Meeting",
-    ctaLink: "/events/ptc",
+      "Young students dressed as Santa and elves celebrate the festive spirit of Christmas with fun activities, decorations, and joyful moments.",
+    category: "Event",
+    ctaText: "See Gallery",
+    ctaLink: "/gallery",
+  },
+  {
+    src: "/Slider/4.jpg",
+    alt: "Joyful School Event",
+    title: "Joyful School Event",
+    description:
+      "Excited students cheer and celebrate during a school function, enjoying a moment of happiness and togetherness in a lively atmosphere.",
+    date: "April 27, 2020",
+    category: "Event",
+    ctaText: "See Gallery",
+    ctaLink: "/gallery",
   },
 ];
 

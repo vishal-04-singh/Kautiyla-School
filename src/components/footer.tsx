@@ -33,7 +33,7 @@ export default function Footer() {
               {
                 title: "Connect",
                 links: ["Contact Us", "Directions", "Social Media", "News & Updates"],
-                href: ["/contact", "/directions", "/social-media", "/news"]
+                href: ["/contact", "/contact", "/contact", "/contact"]
               }
             ].map((col, idx) => (
               <div key={idx}>

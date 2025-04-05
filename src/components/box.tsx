@@ -34,7 +34,7 @@ export default function AdmissionTabs() {
               <h2 className="text-2xl font-bold mb-4">General Information</h2>
               <p>Based on the admission test and other criteria, the school reserves the right to admit students who are found fit for admission. In all matters related to admission, the management’s decision is final.</p>
               <h2 className="text-2xl font-bold mt-6 mb-4">Document Required at the time of Admission</h2>
-              <h3 className="text-xl font-semibold mb-2">Class- Pre Nursery to First</h3>
+              <h3 className="text-xl font-semibold mb-2">Class- Pre Nursery to 8th</h3>
               <ul className="list-disc list-inside mb-4">
                 <li>Attested photocopy of birth certificate.</li>
                 <li>Latest Passport Size Photographs-3</li>
@@ -57,7 +57,7 @@ export default function AdmissionTabs() {
                 </a>
               </div>
               <div className="md:w-1/2 p-4 flex justify-center">
-                <Image src="/adm.jpg" alt="Online Admission" width={60} height={95} className="w-60 max-w-xs h-95 rounded-lg shadow-lg" />
+                <Image src="/adm.gif" alt="Online Admission" width={60} height={95} className="w-60 max-w-xs h-95 rounded-lg shadow-lg" />
               </div>
             </div>
           )}

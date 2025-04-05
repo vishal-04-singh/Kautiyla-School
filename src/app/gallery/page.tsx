@@ -30,35 +30,149 @@ export default function GalleryPage() {
   // Categories data
   const categories: Category[] = [
     { id: "all", label: "All Photos" },
-    { id: "events", label: "School Events" },
-    { id: "sports", label: "Sports" },
-    { id: "academic", label: "Academic" },
-    { id: "arts", label: "Arts & Culture" }
+    { id: "christmas", label: "christmas" },
+    { id: "Diwali", label: "Diwali" },
+    { id: "Republic Day", label: "Republic Day" },
+    { id: "Yoga", label: "Yoga" }
   ];
 
   // Gallery images data
   const images: GalleryImage[] = [
     { 
-      src: "/gallery/events/annual-day.jpg", 
-      category: "events", 
-      alt: "School Annual Day Celebration" 
+      src: "/diwali/1.jpg", 
+      category: "Diwali",
+      alt: "Diwali Celebration" 
+      
     },
     { 
-      src: "/gallery/sports/sports-meet.jpg", 
-      category: "sports", 
-      alt: "Annual Sports Meet Competition" 
+      src: "/diwali/2.jpg", 
+      category: "Diwali",
+      alt: "Diwali Celebration" 
+      
     },
     { 
-      src: "/gallery/academic/science-fair.jpg", 
-      category: "academic", 
-      alt: "Science Fair Projects Exhibition" 
+      src: "/diwali/3.jpg", 
+      category: "Diwali",
+      alt: "Diwali Celebration" 
+      
     },
     { 
-      src: "/gallery/arts/cultural-performance.jpg", 
-      category: "arts", 
-      alt: "Cultural Dance Performance" 
+      src: "/diwali/4.jpg", 
+      category: "Diwali",
+      alt: "Diwali Celebration" 
+      
     },
-    // Add more images as needed
+    { 
+      src: "/diwali/5.jpg", 
+      category: "Diwali",
+      alt: "Diwali Celebration" 
+      
+    },
+    { 
+      src: "/diwali/6.jpg", 
+      category: "Diwali",
+      alt: "Diwali Celebration" 
+      
+    },
+    { 
+      src: "/yoga/1.jpg",
+      category: "Yoga",
+      alt: "Yoga Day Celebration" 
+    },
+    { 
+      src: "/yoga/2.jpg",
+      category: "Yoga",
+      alt: "Yoga Day Celebration" 
+    },
+    { 
+      src: "/yoga/3.jpg",
+      category: "Yoga",
+      alt: "Yoga Day Celebration" 
+    },
+    { 
+      src: "/rep/1.jpg",
+      category: "Republic Day",
+      alt: "Republic Day Celebration"
+      
+    },
+    { 
+      src: "/rep/2.jpg",
+      category: "Republic Day",
+      alt: "Republic Day Celebration"
+      
+    },
+    { 
+      src: "/rep/3.jpg",
+      category: "Republic Day",
+      alt: "Republic Day Celebration"
+      
+    },
+    { 
+      src: "/rep/4.jpg",
+      category: "Republic Day",
+      alt: "Republic Day Celebration"
+      
+    },
+    { 
+      src: "/rep/5.jpg",
+      category: "Republic Day",
+      alt: "Republic Day Celebration"
+      
+    },
+    { 
+      src: "/christmas/1.jpg",
+      category: "christmas",
+      alt: "Christmas Celebration"
+      
+    },
+    { 
+      src: "/christmas/2.jpg",
+      category: "christmas",
+      alt: "Christmas Celebration"
+      
+    },
+    { 
+      src: "/christmas/3.jpg",
+      category: "christmas",
+      alt: "Christmas Celebration"
+      
+    },
+    { 
+      src: "/christmas/4.jpg",
+      category: "christmas",
+      alt: "Christmas Celebration"
+      
+    },
+    { 
+      src: "/christmas/5.jpg",
+      category: "christmas",
+      alt: "Christmas Celebration"
+      
+    },
+    { 
+      src: "/christmas/6.jpg",
+      category: "christmas",
+      alt: "Christmas Celebration"
+      
+    },
+    { 
+      src: "/christmas/7.jpg",
+      category: "christmas",
+      alt: "Christmas Celebration"
+      
+    },
+    { 
+      src: "/christmas/8.jpg",
+      category: "christmas",
+      alt: "Christmas Celebration"
+      
+    },
+    
+    
+    
+    
+    
+    
   ];
 
   // Filter images based on selected category
