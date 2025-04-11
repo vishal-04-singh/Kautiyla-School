@@ -1,96 +1,137 @@
-# Kautiyla School
+# KAUTILYA ACADEMY
 
 ## Overview
-Kautiyla School is a modern educational institution website built with HTML, CSS, and JavaScript. This responsive website showcases the school's offerings, facilities, and provides a platform for students, parents, and prospective families to learn more about the institution.
+KAUTILYA ACADEMY is a modern educational institution website built with Next.js. This website provides comprehensive information about the academy's educational offerings, facilities, and approach. Designed with a clean, professional aesthetic, the site effectively showcases the academy's commitment to quality education and student development.
+
+Live website: [https://kautiyla-school.vercel.app/](https://kautiyla-school.vercel.app/)
 
 ## Features
-- **Responsive Design**: Fully responsive layout that works across different devices and screen sizes
-- **Modern UI**: Clean and intuitive user interface with attractive visuals
-- **Interactive Elements**: Dynamic content presentation with animations and transitions
-- **Information Sections**: Comprehensive information about academics, faculty, admissions, and facilities
-- **Contact Form**: Easy way for visitors to get in touch with the school administration
-
-## Pages
-- **Home**: Introduction to the school with highlights and key information
-- **About**: School history, vision, mission, and values
-- **Academics**: Details about curriculum, approach, and programs
-- **Facilities**: Overview of infrastructure and amenities available
-- **Gallery**: Visual showcase of the campus and activities
-- **Admissions**: Information about the admission process and requirements
-- **Contact**: Location details and contact form
+- **Modern and Professional Design**: Clean layout with engaging visuals and effective use of color scheme
+- **Responsive Interface**: Fully adaptive design that works seamlessly across desktop, tablet, and mobile devices
+- **Dynamic Header with Navigation**: User-friendly menu system for intuitive site exploration
+- **Home Page Highlights**: Showcases key information about the academy with engaging hero section
+- **About Section**: Details the academy's history, vision, and educational philosophy
+- **Course Information**: Comprehensive details about educational programs and curriculum
+- **Facilities Showcase**: Visual presentation of campus infrastructure and amenities
+- **Admission Process**: Clear guidelines and requirements for prospective students
+- **Faculty Profiles**: Information about teaching staff and their expertise
+- **Contact Information**: Easy access to location details and communication channels
 
 ## Technologies Used
-- HTML5
-- CSS3
-- JavaScript
-- Bootstrap framework
-- Font Awesome icons
-- Google Fonts
+- **Next.js**: React framework for production-grade applications
+- **React**: JavaScript library for building user interfaces
+- **TypeScript**: For type-safe code and improved developer experience
+- **Tailwind CSS**: Utility-first CSS framework for custom design implementation
+- **Vercel**: Deployment platform optimized for Next.js applications
+- **Responsive Design**: Mobile-first approach ensuring compatibility across devices
+- **Modern JavaScript**: ES6+ features for efficient code
 
-## Setup and Installation
-1. Clone the repository:
-   ```
-   git clone https://github.com/vishal-04-singh/Kautiyla-School.git
-   ```
-2. Navigate to the project directory:
-   ```
-   cd Kautiyla-School
-   ```
-3. Open `index.html` in your preferred browser to view the website
+## Getting Started
+
+First, clone the repository:
+
+```bash
+git clone [repository-url]
+cd kautilya-academy
+```
+
+Install dependencies:
+
+```bash
+npm install
+# or
+yarn install
+# or
+pnpm install
+```
+
+Run the development server:
+
+```bash
+npm run dev
+# or
+yarn dev
+# or
+pnpm dev
+# or
+bun dev
+```
+
+Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
 
 ## Project Structure
 ```
-Kautiyla-School/
+kautilya-academy/
 │
-├── index.html              # Main homepage
-├── about.html              # About page
-├── academics.html          # Academics information
-├── facilities.html         # School facilities
-├── gallery.html            # Photo gallery
-├── admissions.html         # Admissions process
-├── contact.html            # Contact information
+├── app/                    # App router directory
+│   ├── page.tsx            # Home page
+│   ├── about/              # About page
+│   │   └── page.tsx
+│   ├── courses/            # Courses page
+│   │   └── page.tsx
+│   ├── facilities/         # Facilities page
+│   │   └── page.tsx
+│   ├── admissions/         # Admissions page
+│   │   └── page.tsx
+│   ├── faculty/            # Faculty page
+│   │   └── page.tsx
+│   ├── contact/            # Contact page
+│   │   └── page.tsx
+│   └── layout.tsx          # Root layout component
 │
-├── css/                    # Stylesheet files
-│   ├── style.css           # Main stylesheet
-│   ├── responsive.css      # Responsive design styles
+├── components/             # Reusable React components
+│   ├── Header.tsx          # Site navigation
+│   ├── Footer.tsx          # Site footer
+│   ├── HeroSection.tsx     # Hero banner component
+│   ├── CourseCard.tsx      # Course display component
 │   └── ...
 │
-├── js/                     # JavaScript files
-│   ├── main.js             # Main script file
+├── public/                 # Static assets
+│   ├── logo.png            # Academy logo
+│   ├── images/             # Image assets
 │   └── ...
 │
-├── images/                 # Image assets
-│   ├── logo.png            # School logo
-│   ├── slider/             # Slider images
-│   ├── gallery/            # Gallery images
-│   └── ...
+├── styles/                 # CSS styles
 │
-└── fonts/                  # Custom font files (if any)
+├── lib/                    # Utility functions
+│
+├── next.config.js          # Next.js configuration
+├── tailwind.config.js      # Tailwind CSS configuration
+├── tsconfig.json           # TypeScript configuration
+└── package.json            # Project dependencies and scripts
 ```
 
-## Browser Support
-- Google Chrome (latest)
-- Mozilla Firefox (latest)
-- Safari (latest)
-- Microsoft Edge (latest)
-- Opera (latest)
+## Deployment
 
-## Contributing
-1. Fork the repository
-2. Create your feature branch (`git checkout -b feature/amazing-feature`)
-3. Commit your changes (`git commit -m 'Add some amazing feature'`)
-4. Push to the branch (`git push origin feature/amazing-feature`)
-5. Open a Pull Request
+The project is deployed on Vercel at [https://kautiyla-school.vercel.app/](https://kautiyla-school.vercel.app/)
+
+To deploy your own version:
+
+1. Push your code to a GitHub repository
+2. Import the project to Vercel
+3. Configure build settings if necessary
+4. Deploy
+
+## Browser Support
+- Google Chrome
+- Mozilla Firefox
+- Safari
+- Microsoft Edge
+- Opera
+
+## Future Enhancements
+- Student portal integration
+- Online application system
+- Event calendar
+- News and announcements section
+- Student testimonials
+- Virtual campus tour
 
 ## License
-This project is licensed under the MIT License - see the LICENSE file for details.
+This project is licensed under the MIT License.
 
 ## Contact
-Vishal Singh - [GitHub Profile](https://github.com/vishal-04-singh)
+For any inquiries about this project:
 
-Project Link: [https://github.com/vishal-04-singh/Kautiyla-School](https://github.com/vishal-04-singh/Kautiyla-School)
-
-## Acknowledgements
-- [Bootstrap](https://getbootstrap.com/)
-- [Font Awesome](https://fontawesome.com/)
-- [Google Fonts](https://fonts.google.com/)
+- Website: [https://kautiyla-school.vercel.app/](https://kautiyla-school.vercel.app/)
+- GitHub: [Your GitHub Profile]
